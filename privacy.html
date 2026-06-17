@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — MOGas MOMoney</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a2e;
+      background: #f5f7fa;
+    }
+    header {
+      background: #0d1b26;
+      color: #e8f0f5;
+      padding: 2rem 1.5rem;
+    }
+    header h1 { font-size: 1.5rem; font-weight: 700; }
+    header p  { font-size: 0.9rem; color: #4a6d84; margin-top: 0.25rem; }
+    main {
+      max-width: 760px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem 4rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #0d1b26;
+      margin: 2rem 0 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid #10c980;
+    }
+    p  { margin-top: 0.75rem; color: #2d3a45; }
+    ul { margin-top: 0.75rem; padding-left: 1.4rem; color: #2d3a45; }
+    li { margin-bottom: 0.35rem; }
+    a  { color: #0d9b6a; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated {
+      display: inline-block;
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: #4a6d84;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #4a6d84;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MOGas MOMoney — Privacy Policy</h1>
+  <p>REQS TECH &nbsp;·&nbsp; apps.reqs.tech/mogas/privacy</p>
+</header>
+
+<main>
+
+  <span class="updated">Last updated: April 6, 2026</span>
+
+  <h2>Overview</h2>
+  <p>MOGas MOMoney ("the app") is a Missouri motor fuel tax refund tracker published by REQS TECH, a division of TYPICAL LLC. This policy explains what information the app collects, how it is used, and how it is protected.</p>
+  <p>The app is designed with a privacy-first approach: <strong>all data you enter stays on your device.</strong> We do not operate servers, do not collect analytics, and do not run advertisements.</p>
+
+  <h2>Information We Collect</h2>
+  <p>The app collects only information you provide directly:</p>
+  <ul>
+    <li><strong>Vehicle information</strong> — make, model, year, VIN, fuel type, and weight classification.</li>
+    <li><strong>Fuel purchase records</strong> — date, gallons purchased, seller name, and seller address.</li>
+    <li><strong>Receipt images</strong> — photos you take or select from your device's gallery for OCR scanning. Images are saved to your device's private app storage.</li>
+    <li><strong>App preferences</strong> — display theme (light/dark/auto) and other in-app settings.</li>
+    <li><strong>Tax filing information</strong> (future feature) — taxpayer name, address, FEIN or Social Security Number, and bank account details entered for completing Missouri Form 4923-H. This information will be stored in your device's secure credential storage and is never transmitted off your device.</li>
+  </ul>
+
+  <h2>How We Use Your Information</h2>
+  <p>All information is used solely to provide the app's core functions:</p>
+  <ul>
+    <li>Calculating your estimated Missouri motor fuel tax refund under RSMo § 142.824.</li>
+    <li>Pre-filling Missouri Department of Revenue Form 4923-H for your review and submission.</li>
+    <li>Displaying your purchase history and refund summaries within the app.</li>
+  </ul>
+  <p>We do not use your information for advertising, profiling, or any purpose beyond operating the features you see in the app.</p>
+
+  <h2>Data Storage and Security</h2>
+  <p>All data is stored locally on your device using Android's standard application storage mechanisms (SQLite database and SharedPreferences). The app does not transmit any data to external servers.</p>
+  <p>Sensitive information such as Social Security Numbers, Federal Employer Identification Numbers, and bank account details (when that feature is available) will be stored using Android's encrypted EncryptedSharedPreferences API. Your device's lock screen credential is used as part of the encryption chain, meaning data is protected at rest.</p>
+  <p>Receipt images are saved to your device's private app documents directory and are not accessible to other apps.</p>
+
+  <h2>On-Device OCR Processing</h2>
+  <p>The app uses Google's ML Kit Text Recognition library to read text from receipt photos. This processing happens entirely on your device. Receipt images and their extracted text are never sent to Google or any other service. Google's ML Kit on-device terms apply; for more information see <a href="https://developers.google.com/ml-kit/terms" target="_blank" rel="noopener">developers.google.com/ml-kit/terms</a>.</p>
+
+  <h2>Data Sharing</h2>
+  <p>We do not sell, rent, or share your personal information with third parties. The only way data leaves your device is if you explicitly export it — for example, by generating a PDF of Form 4923-H and choosing to share or print it using your device's standard share sheet. That action is entirely under your control.</p>
+
+  <h2>Data Retention and Deletion</h2>
+  <p>Your data persists on your device until you delete it within the app or uninstall the app. Uninstalling the app removes all app data from your device, with the exception of any files you manually moved to shared storage. We have no copy of your data and cannot assist with recovery.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>MOGas MOMoney is intended for adults filing Missouri motor fuel tax refund claims. The app is not directed at children under the age of 13, and we do not knowingly collect information from children.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we make material changes to this policy, we will update the "Last updated" date above and, where appropriate, provide notice within the app. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or concerns about this privacy policy may be directed to:</p>
+  <p>
+    REQS TECH / TYPICAL LLC<br />
+    <a href="mailto:privacy@reqs.tech">privacy@reqs.tech</a><br />
+    <a href="https://apps.reqs.tech" target="_blank" rel="noopener">apps.reqs.tech</a>
+  </p>
+
+</main>
+
+<footer>
+  &copy; 2026 TYPICAL LLC &nbsp;·&nbsp; REQS TECH &nbsp;·&nbsp; MOGas MOMoney
+</footer>
+
+</body>
+</html>
