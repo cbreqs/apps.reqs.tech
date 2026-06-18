@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-d	<string>mogas</string>
+	<string>mogas</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,5 +45,9 @@ d	<string>mogas</string>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to scan fuel receipts</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Used to select fuel receipt images</string>
+	</dict>
 </plist>
