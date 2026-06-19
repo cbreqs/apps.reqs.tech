@@ -9,14 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
 
   # State management
   flutter_riverpod: ^2.5.1
 
   # Local database
   sqflite: ^2.3.3+1
-  sqflite_common_ffi: ^2.3.4+2   # Desktop (Windows/Linux/macOS) support
+  sqflite_common_ffi: ^2.3.4+2
   path: ^1.9.0
 
   # OCR & camera
@@ -28,11 +27,8 @@ dependencies:
   pdf: ^3.11.1
   printing: ^5.13.1
 
-  # Secure storage (SSN, FEIN, bank info)
+  # Secure storage
   flutter_secure_storage: ^9.2.2
-
-  # Local notifications (filing window reminders) — added back in Week 4
-  # flutter_local_notifications: ^17.2.3  (requires AGP 8.9.1; re-enable when implementing reminders)
 
   # Utilities
   shared_preferences: ^2.3.3
@@ -49,5 +45,5 @@ flutter:
 
 flutter_launcher_icons:
   android: true
-  ios: false
+  ios: true
   image_path: "assets/icon/icon.png"
