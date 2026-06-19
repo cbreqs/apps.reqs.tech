@@ -1,7 +1,7 @@
 name: mogas
 description: "MOgas MOmoney — Missouri Motor Fuel Tax Refund Tracker by REQS TECH"
 publish_to: 'none'
-version: 1.0.0+5   # versionName: 1.0.0  |  versionCode: 1  — increment versionCode (+1) for every Play Store upload
+version: 1.0.0+6   # versionName: 1.0.0  |  versionCode: 1  — increment versionCode (+1) for every Play Store upload
 
 environment:
   sdk: ^3.8.1
